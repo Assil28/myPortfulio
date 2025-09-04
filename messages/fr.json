@@ -9,9 +9,10 @@
   "navigation": {
     "hireMe": "Embauchez-moi",
     "home": "Accueil",
-    "resume": "CV",
+    "resume": "Profil",
     "work": "Travail",
-    "contact": "Contact"
+    "contact": "Contact",
+    "downloadCV": "Télécharger le CV"
   },
   "contact": {
     "description": "Veuillez remplir le formulaire ci-dessous pour me contacter.",

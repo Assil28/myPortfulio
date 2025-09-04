@@ -9,9 +9,10 @@
   "navigation": {
     "hireMe": "Hire me",
     "home": "Home",
-    "resume": "Resume",
+    "resume": "Profile",
     "work": "Work",
-    "contact": "Contact"
+    "contact": "Contact",
+    "downloadCV": "Download CV"
   },
   "contact": {
     "description": "Please fill out the form below to get in touch.",

@@ -9,6 +9,7 @@ import Image from "next/image";
 import { useTranslations, useLocale } from "next-intl";
 import Flag from "react-flagkit";
 import { useRouter, usePathname, useSearchParams } from "next/navigation";
+import { FiDownload } from "react-icons/fi";
 
 const Header = () => {
   const t = useTranslations("navigation");
@@ -49,9 +50,20 @@ const Header = () => {
         {/* Desktop nav */}
         <div className="hidden xl:flex items-center gap-8">
           <Nav />
+          <a href="/images/curriculum vitae Dekhil_Assil.pdf" download className="no-underline">
+                          <Button
+                            variant="outline"
+                            size="lg"
+                            className="uppercase flex items-center gap-2"
+                          >
+                            <span>{t("downloadCV")}</span>
+                            <FiDownload className="text-xl" />
+                          </Button>
+                        </a>
           <Link href="/contact">
             <Button>{t("hireMe")}</Button>
           </Link>
+          
           {/* Language Switcher Button */}
           <Button className="rounded-full" onClick={handleLocaleChange}>
             {locale === "en" ? (
