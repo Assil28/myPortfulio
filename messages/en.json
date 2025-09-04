@@ -3,7 +3,7 @@
     "subtitle": "Software Developer & Web and Mobile Applications",
     "greeting": "Hello I'm",
     "name": "Assil Dekhil",
-    "description": "Master 2 student in Computer Science and Mobility at the FST of Mulhouse and graduate in Bachelor's degree in Computer Technology with a specialty in Web and Mobile Development.",
+    "description": "As a Master 2 student in Computer Science and Mobility at the University of Haute-Alsace, I am looking for an end-of-studies internship in web and mobile development. My academic background and practical experience have allowed me to acquire solid expertise in the design and development of modern applications. I would like to put my skills to the service of an innovative company for an internship lasting 5 to 6 months starting in February 2026.",
     "downloadCV": "Download CV"
   },
   "navigation": {
@@ -261,8 +261,22 @@
     "codeCommits": "code commits"
   },
   "grid": {
-    "title1": "I prioritize client collaboration, fostering open communication",
-    "title2": "I'm very flexible with time zone communications",
-    "title3": ""
+    "whatImDoing": "What I'm Doing",
+    "mobileApps": {
+      "title": "Mobile Apps",
+      "description": "Professional development of applications for Android and iOS."
+    },
+    "webDevelopment": {
+      "title": "Web Development",
+      "description": "High-quality development of sites at the professional level."
+    },
+    "uiuxDesign": {
+      "title": "UI/UX Design",
+      "description": "The most modern and high-quality design made at a professional level."
+    },
+    "backendDevelopment": {
+      "title": "Backend Development",
+      "description": "High-performance backend services designed for scalability and seamless user experience."
+    }
   }
 }

@@ -1,10 +1,9 @@
 {
   "Index": {
-    "subtitle": "Développeur logiciels & Applications Web et Mobiles",
+    "subtitle": "Développeur Logiciels & Applications Web et Mobiles",
     "greeting": "Bonjour, je suis",
     "name": "Assil Dekhil",
-    "description": "Etudiant en Master 2 en Informatique et Mobilité à la FST de Mulhouse et diplômé en Licence en Technologies de l'Informatique avec une spécialité en Développement Web et mobiles",
-    "downloadCV": "Télécharger le CV"
+    "description": "Etudiant en Master 2 Informatique et Mobilité à l'Université de Haute-Alsace, je suis à la recherche d'un stage de fin d'études dans le développement web et mobile. Mon cursus académique et mes expériences pratiques m'ont permis d'acquérir une expertise solide dans la conception et le développement d'applications modernes. Je souhaite mettre mes compétences au service d'une entreprise innovante pour un stage d'une durée de 5 à 6 mois à partir de férvrier 2026."
   },
   "navigation": {
     "hireMe": "Embauchez-moi",
@@ -261,8 +260,22 @@
     "codeCommits": "commits de code"
   },
   "grid": {
-    "title1": "Je privilégie la collaboration avec les clients, en favorisant une communication ouverte",
-    "title2": "Je suis très flexible avec les communications en fonction du fuseau horaire",
-    "title3": ""
+    "whatImDoing": "Ce que je fais",
+    "mobileApps": {
+      "title": "Applications Mobiles",
+      "description": "Développement professionnel d'applications pour Android et iOS."
+    },
+    "webDevelopment": {
+      "title": "Développement Web",
+      "description": "Développement de sites de haute qualité au niveau professionnel."
+    },
+    "uiuxDesign": {
+      "title": "Conception UI/UX",
+      "description": "Le design le plus moderne et de haute qualité réalisé à un niveau professionnel."
+    },
+    "backendDevelopment": {
+      "title": "Développement Backend",
+      "description": "Services backend haute performance conçus pour la scalabilité et une expérience utilisateur fluide."
+    }
   }
 }
