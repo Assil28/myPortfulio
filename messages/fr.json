@@ -76,7 +76,8 @@
           "nodejs": "NodeJS",
           "angular": "Angular",
           "reactjs": "ReactJS",
-          "flutter": "Flutter"
+          "flutter": "Flutter",
+          "android": "Android"
         }
       },
       "programming": {
