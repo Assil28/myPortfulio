@@ -3,7 +3,8 @@
     "subtitle": "Développeur Logiciels & Applications Web et Mobiles",
     "greeting": "Bonjour, je suis",
     "name": "Assil Dekhil",
-    "description": "Etudiant en Master 2 Informatique et Mobilité à l'Université de Haute-Alsace, je suis à la recherche d'un stage de fin d'études dans le développement web et mobile. Mon cursus académique et mes expériences pratiques m'ont permis d'acquérir une expertise solide dans la conception et le développement d'applications modernes. Je souhaite mettre mes compétences au service d'une entreprise innovante pour un stage d'une durée de 5 à 6 mois à partir de férvrier 2026."
+    "description": "Etudiant en Master 2 Informatique et Mobilité à l'Université de Haute-Alsace, je suis à la recherche d'un stage de fin d'études dans le développement web et mobile. Mon cursus académique et mes expériences pratiques m'ont permis d'acquérir une expertise solide dans la conception et le développement d'applications modernes. Je souhaite mettre mes compétences au service d'une entreprise innovante pour un stage d'une durée de 5 à 6 mois à partir de férvrier 2026.",
+    "downloadCV": "Télécharger le CV"
   },
   "navigation": {
     "hireMe": "Embauchez-moi",
@@ -182,68 +183,78 @@
       "project1": {
         "num": "01",
         "category": "Application Mobile",
-        "title": "Gestion de magasin",
-        "description": "Application Mobile pour la gestion d'un magasin (Tech : Flutter, PrestaShop Webservice API)",
+        "title": "GestionPresta",
+        "description": "Application Mobile pour la gestion d'un magasin en ligne",
         "stack": "Flutter, PrestaShop Webservice API",
-        "image": "/images/work/mobile_store_management.png",
+        "image": "/images/work/kmandi.png",
         "live": "",
-        "github": ""
+        "github": "https://github.com/Assil28/endyear_2025_gr01_mobileapp"
       },
       "project2": {
         "num": "02",
         "category": "Plateforme",
-        "title": "Vente d'énergie électrique",
-        "description": "Plateforme pour la vente d'énergie électrique (Tech : .NET, Angular, MySQL, Postman)",
+        "title": "ShareElec",
+        "description": "Plateforme pour la vente d'énergie électrique",
         "stack": ".NET, Angular, MySQL, Postman",
         "image": "/images/work/electric_energy_sales.png",
         "live": "",
-        "github": ""
+        "github": "https://github.com/Assil28/ShareElec_FrontEnd-.git"
       },
       "project3": {
         "num": "03",
-        "category": "Application Web et Mobile",
-        "title": "Gestion d'agence de transport",
-        "description": "Application Web et Mobile pour la gestion d'une agence de transport (Tech : Express.js, Flutter, MongoDB, Postman)",
-        "stack": "Express.js, Flutter, MongoDB, Postman",
-        "image": "/images/work/transport_agency_management.png",
+        "category": "Mobile",
+        "title": "E_Banking",
+        "description": "Développement d'un module d'accès à une application mobile basé sur l'authentification à deux facteurs",
+        "stack": ".NET, Angular, MySQL, Postman",
+        "image": "/images/work/electric_energy_sales.png",
         "live": "",
-        "github": ""
+        "github": "https://github.com/Assil28/E_Banking"
       },
       "project4": {
         "num": "04",
-        "category": "Plateforme",
-        "title": "Offres d'emploi",
-        "description": "Plateforme d'offres d'emploi (Tech : Express.js, Angular, MongoDB, Postman)",
-        "stack": "Express.js, Angular, MongoDB, Postman",
-        "image": "/images/work/job_offers_platform.png",
+        "category": "Application Web et Mobile",
+        "title": "STT",
+        "description": "Application Web et Mobile pour la gestion d'une agence de transport",
+        "stack": "Express.js, Flutter, MongoDB, Postman",
+        "image": "/images/work/stt.png",
         "live": "",
-        "github": ""
+        "github": "https://github.com/Assil28/STT_PROJECT"
       },
       "project5": {
         "num": "05",
         "category": "Plateforme",
-        "title": "Gestion de restaurant",
-        "description": "Plateforme de gestion de restaurant (Tech : Spring Boot, Angular, MySQL, Postman)",
-        "stack": "Spring Boot, Angular, MySQL, Postman",
-        "image": "/images/work/restaurant_management.png",
+        "title": "JobFinder",
+        "description": "Plateforme d'offres d'emploi",
+        "stack": "Express.js, Angular, MongoDB, Postman",
+        "image": "/images/work/job_offers_platform.png",
         "live": "",
-        "github": ""
+        "github": "https://github.com/Assil28/JobFinder"
       },
       "project6": {
         "num": "06",
         "category": "Plateforme",
-        "title": "Réseau social",
-        "description": "Plateforme de réseau social (Tech : Spring Boot, Angular, MySQL, Postman)",
+        "title": "Restauroni",
+        "description": "Plateforme de gestion de restaurant",
         "stack": "Spring Boot, Angular, MySQL, Postman",
-        "image": "/images/work/social_network_platform.png",
+        "image": "/images/work/restaurant_management.png",
         "live": "",
-        "github": ""
+        "github": "https://github.com/Assil28/AppRestaurant"
       },
       "project7": {
         "num": "07",
         "category": "Plateforme",
-        "title": "Gestion d'établissement scolaire",
-        "description": "Plateforme de gestion d'un établissement scolaire (Tech : Spring Boot, Angular, MySQL, Postman)",
+        "title": "A7ki",
+        "description": "Plateforme de réseau social",
+        "stack": "Spring Boot, Angular, MySQL, Postman",
+        "image": "/images/work/social_network_platform.png",
+        "live": "",
+        "github": "https://github.com/Assil28/App-Reseau_Social"
+      },
+      "project8": {
+        "num": "08",
+        "category": "Plateforme",
+        "title": "9raya",
+        "description": "Plateforme de gestion d'un établissement scolaire",
         "stack": "Spring Boot, Angular, MySQL, Postman",
         "image": "/images/work/school_management_platform.png",
         "live": "",

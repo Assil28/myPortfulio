@@ -183,68 +183,78 @@
       "project1": {
         "num": "01",
         "category": "Mobile Application",
-        "title": "Store Management",
-        "description": "Mobile Application for store management (Tech : Flutter, PrestaShop Webservice API)",
+        "title": "GestionPresta",
+        "description": "Mobile Application for store management",
         "stack": "Flutter, PrestaShop Webservice API",
-        "image": "/images/work/mobile_store_management.png",
+        "image": "/images/work/kmandi.png",
         "live": "",
-        "github": ""
+        "github": "https://github.com/Assil28/endyear_2025_gr01_mobileapp"
       },
       "project2": {
         "num": "02",
         "category": "Platform",
-        "title": "Electric Energy Sales",
-        "description": "Platform for electric energy sales (Tech : .NET, Angular, MySQL, Postman)",
+        "title": "ShareElec",
+        "description": "Platform for electric energy sales ",
         "stack": ".NET, Angular, MySQL, Postman",
         "image": "/images/work/electric_energy_sales.png",
         "live": "",
-        "github": ""
+        "github": "https://github.com/Assil28/ShareElec_FrontEnd-.git"
       },
       "project3": {
         "num": "03",
-        "category": "Web and Mobile Application",
-        "title": "Transport Agency Management",
-        "description": "Web and Mobile Application for transport agency management (Tech : Express.js, Flutter, MongoDB, Postman)",
-        "stack": "Express.js, Flutter, MongoDB, Postman",
-        "image": "/images/work/transport_agency_management.png",
+        "category": "Mobile",
+        "title": "E_Banking",
+        "description": "Development of a mobile application access module based on two-factor authentication",
+        "stack": "Flutter, Firebase",
+        "image": "/images/work/electric_energy_sales.png",
         "live": "",
-        "github": ""
+        "github": "https://github.com/Assil28/E_Banking"
       },
       "project4": {
         "num": "04",
-        "category": "Platform",
-        "title": "Job Offers",
-        "description": "Job offers platform (Tech : Express.js, Angular, MongoDB, Postman)",
-        "stack": "Express.js, Angular, MongoDB, Postman",
-        "image": "/images/work/job_offers_platform.png",
+        "category": "Web and Mobile Application",
+        "title": "STT",
+        "description": "Web and Mobile Application for transport agency management",
+        "stack": "Express.js, Flutter, MongoDB, Postman",
+        "image": "/images/work/transport_agency_management.png",
         "live": "",
-        "github": ""
+        "github": "https://github.com/Assil28/STT_PROJECT"
       },
       "project5": {
         "num": "05",
         "category": "Platform",
-        "title": "Restaurant Management",
-        "description": "Restaurant management platform (Tech : Spring Boot, Angular, MySQL, Postman)",
-        "stack": "Spring Boot, Angular, MySQL, Postman",
-        "image": "/images/work/restaurant_management.png",
+        "title": "JobFinder",
+        "description": "Job offers platform ",
+        "stack": "Express.js, Angular, MongoDB, Postman",
+        "image": "/images/work/job_offers_platform.png",
         "live": "",
-        "github": ""
+        "github": "https://github.com/Assil28/JobFinder"
       },
       "project6": {
         "num": "06",
         "category": "Platform",
-        "title": "Social Network",
-        "description": "Social network platform (Tech : Spring Boot, Angular, MySQL, Postman)",
+        "title": "Restauroni",
+        "description": "Restaurant management platform ",
         "stack": "Spring Boot, Angular, MySQL, Postman",
-        "image": "/images/work/social_network_platform.png",
+        "image": "/images/work/restaurant_management.png",
         "live": "",
-        "github": ""
+        "github": "https://github.com/Assil28/AppRestaurant"
       },
       "project7": {
         "num": "07",
         "category": "Platform",
-        "title": "School Management",
-        "description": "School management platform (Tech : Spring Boot, Angular, MySQL, Postman)",
+        "title": "A7ki",
+        "description": "Social network platform",
+        "stack": "Spring Boot, Angular, MySQL, Postman",
+        "image": "/images/work/social_network_platform.png",
+        "live": "",
+        "github": "https://github.com/Assil28/App-Reseau_Social"
+      },
+      "project8": {
+        "num": "08",
+        "category": "Platform",
+        "title": "9raya",
+        "description": "School management platform/*  */",
         "stack": "Spring Boot, Angular, MySQL, Postman",
         "image": "/images/work/school_management_platform.png",
         "live": "",
