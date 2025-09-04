@@ -1,0 +1,268 @@
+{
+  "Index": {
+    "subtitle": "Développeur logiciels & Applications Web et Mobiles",
+    "greeting": "Bonjour, je suis",
+    "name": "Assil Dekhil",
+    "description": "Etudiant en Master 2 en Informatique et Mobilité à la FST de Mulhouse et diplômé en Licence en Technologies de l'Informatique avec une spécialité en Développement Web et mobiles",
+    "downloadCV": "Télécharger le CV"
+  },
+  "navigation": {
+    "hireMe": "Embauchez-moi",
+    "home": "Accueil",
+    "resume": "CV",
+    "work": "Travail",
+    "contact": "Contact"
+  },
+  "contact": {
+    "description": "Veuillez remplir le formulaire ci-dessous pour me contacter.",
+    "title": "Travaillons ensemble",
+    "firstname": "Prénom",
+    "lastname": "Nom de famille",
+    "email": "Adresse e-mail",
+    "phone": "Numéro de téléphone",
+    "selectService": "Sélectionner un service",
+    "services": {
+      "webDevelopment": "Développement Web",
+      "cdi": "CDI",
+      "cdd": "CDD",
+      "intern": "Stagiaire"
+    },
+    "messagePlaceholder": "Tapez votre message ici.",
+    "sendMessage": "Envoyer le message",
+    "messageSent": "Message Envoyé",
+    "submissionFailed": "Échec de l'envoi",
+    "thankYouMessage": "Merci pour votre message. Je vous répondrai bientôt.",
+    "failedMessage": "Échec de l'envoi du message",
+    "contactInfo": {
+      "phone": "Téléphone",
+      "email": "E-mail",
+      "adresse": "Adresse"
+    },
+    "contactDetails": {
+      "phone": "+33 7 59 52 11 69",
+      "email": "assil.dekhil@uha.fr",
+      "address": "50 Bd Charles Stoessel, 68200 Mulhouse, France"
+    }
+  },
+  "resume": {
+    "about": {
+      "title": "À propos de moi",
+      "description": "Je suis un développeur de logiciels passionné avec une grande expérience dans la création de solutions numériques. Mes compétences couvrent divers langages de programmation et technologies.",
+      "name": "Nom",
+      "phone": "Téléphone",
+      "experience": "Expérience",
+      "discord": "Discord",
+      "nationality": "Nationalité",
+      "email": "Email",
+      "freelance": "Disponible",
+      "languages": "Langues",
+      "lgDetails": "Français, Anglais, Espagnol"
+    },
+    "skills": {
+      "title": "Mes Compétences",
+      "description": "Compétences",
+      "conception": {
+        "title": "Conception",
+        "items": {
+          "uml": "UML, Design Patterns"
+        }
+      },
+      "framework": {
+        "title": "Framework",
+        "items": {
+          "springboot": "Spring Boot",
+          "dotnet": ".NET",
+          "expressjs": "Express.js",
+          "nodejs": "NodeJS",
+          "angular": "Angular",
+          "reactjs": "ReactJS",
+          "flutter": "Flutter"
+        }
+      },
+      "programming": {
+        "title": "Programmation",
+        "items": {
+          "java": "Java",
+          "csharp": "C#",
+          "python": "Python",
+          "php": "PHP",
+          "javascript": "JavaScript",
+          "typescript": "TypeScript",
+          "swift": "Swift",
+          "kotlin": "Kotlin",
+          "cplusplus": "C/C++"
+        }
+      },
+      "database": {
+        "title": "Base de données",
+        "items": {
+          "mysql": "MySQL",
+          "mongodb": "MongoDB",
+          "firebase": "Firebase",
+          "oracle": "Oracle",
+          "postgresql": "PostgreSQL"
+        }
+      },
+      "projectManagement": {
+        "title": "Gestion de projet",
+        "items": {
+          "git": "Git",
+          "trello": "Trello/Jira",
+          "agile": "Agile/Scrum",
+          "postman": "Postman"
+        }
+      },
+      "devops": {
+        "title": "DevOps",
+        "items": {
+          "docker": "Docker",
+          "kubernetes": "Kubernetes",
+          "cicd": "CI/CD (Jenkins, GitLab CI)"
+        }
+      }
+    },
+    "experience": {
+      "title": "Mon Expérience",
+      "description": "Un aperçu de mon expérience professionnelle et de mes stages.",
+      "items": {
+        "internship4": {
+          "company": "BFI Group, Djerba Tunisia",
+          "position": "Stagiaire Ingénieur Logiciels",
+          "duration": "Juillet 2024"
+        },
+        "internship2": {
+          "company": "ROAM MAZE, Djerba Tunisia",
+          "position": "Stagiaire Ingénieur Logiciels",
+          "duration": "Janvier - Juin 2023"
+        },
+        "internship3": {
+          "company": "TANGORYTHM, Djerba Tunisia",
+          "position": "Stagiaire en Développement Web",
+          "duration": "Janvier 2022"
+        },
+        "internship1": {
+          "company": "OACA , Djerba Tunisia",
+          "position": "Stagiaire en Développement Web",
+          "duration": "Janvier 2022"
+        }
+      }
+    },
+    "education": {
+      "title": "Mon Éducation",
+      "description": "Un aperçu de mon parcours académique.",
+      "items": {
+        "education1": {
+          "institution": "Faculté des Sciences et Techniques, Université de Haute-Alsace",
+          "degree": "Master 1 en Informatique et Mobilité",
+          "duration": "2024 - Présent",
+          "link": "https://www.uha.fr/fr/index.html"
+        },
+        "education2": {
+          "institution": "Institut Supérieur des Études Technologiques de Rades",
+          "degree": "Master 1 en Développement des Applications Mobiles",
+          "duration": "2023 - 2024",
+          "link": ""
+        },
+        "education3": {
+          "institution": "Institut Supérieur des Études Technologiques de Mahdia",
+          "degree": "Licence en Informatique - Développement Web et Multimédia",
+          "duration": "2020 - 2023",
+          "link": ""
+        },
+        "education4": {
+          "institution": "Lycée Houmt-Souk Djerba",
+          "degree": "Baccalauréat en Mathématiques",
+          "duration": "2020",
+          "link": ""
+        }
+      }
+    }
+  },
+  "work": {
+    "projects": {
+      "project1": {
+        "num": "01",
+        "category": "Application Mobile",
+        "title": "Gestion de magasin",
+        "description": "Application Mobile pour la gestion d'un magasin (Tech : Flutter, PrestaShop Webservice API)",
+        "stack": "Flutter, PrestaShop Webservice API",
+        "image": "/images/work/mobile_store_management.png",
+        "live": "",
+        "github": ""
+      },
+      "project2": {
+        "num": "02",
+        "category": "Plateforme",
+        "title": "Vente d'énergie électrique",
+        "description": "Plateforme pour la vente d'énergie électrique (Tech : .NET, Angular, MySQL, Postman)",
+        "stack": ".NET, Angular, MySQL, Postman",
+        "image": "/images/work/electric_energy_sales.png",
+        "live": "",
+        "github": ""
+      },
+      "project3": {
+        "num": "03",
+        "category": "Application Web et Mobile",
+        "title": "Gestion d'agence de transport",
+        "description": "Application Web et Mobile pour la gestion d'une agence de transport (Tech : Express.js, Flutter, MongoDB, Postman)",
+        "stack": "Express.js, Flutter, MongoDB, Postman",
+        "image": "/images/work/transport_agency_management.png",
+        "live": "",
+        "github": ""
+      },
+      "project4": {
+        "num": "04",
+        "category": "Plateforme",
+        "title": "Offres d'emploi",
+        "description": "Plateforme d'offres d'emploi (Tech : Express.js, Angular, MongoDB, Postman)",
+        "stack": "Express.js, Angular, MongoDB, Postman",
+        "image": "/images/work/job_offers_platform.png",
+        "live": "",
+        "github": ""
+      },
+      "project5": {
+        "num": "05",
+        "category": "Plateforme",
+        "title": "Gestion de restaurant",
+        "description": "Plateforme de gestion de restaurant (Tech : Spring Boot, Angular, MySQL, Postman)",
+        "stack": "Spring Boot, Angular, MySQL, Postman",
+        "image": "/images/work/restaurant_management.png",
+        "live": "",
+        "github": ""
+      },
+      "project6": {
+        "num": "06",
+        "category": "Plateforme",
+        "title": "Réseau social",
+        "description": "Plateforme de réseau social (Tech : Spring Boot, Angular, MySQL, Postman)",
+        "stack": "Spring Boot, Angular, MySQL, Postman",
+        "image": "/images/work/social_network_platform.png",
+        "live": "",
+        "github": ""
+      },
+      "project7": {
+        "num": "07",
+        "category": "Plateforme",
+        "title": "Gestion d'établissement scolaire",
+        "description": "Plateforme de gestion d'un établissement scolaire (Tech : Spring Boot, Angular, MySQL, Postman)",
+        "stack": "Spring Boot, Angular, MySQL, Postman",
+        "image": "/images/work/school_management_platform.png",
+        "live": "",
+        "github": ""
+      }
+    },
+    "liveProject": "Projet en direct",
+    "githubRepository": "Référentiel GitHub"
+  },
+  "stats": {
+    "yearsOfExperience": "Années d'expérience",
+    "projectsCompleted": "Projets complétés",
+    "technologiesMastered": "Technologies maîtrisées",
+    "codeCommits": "commits de code"
+  },
+  "grid": {
+    "title1": "Je privilégie la collaboration avec les clients, en favorisant une communication ouverte",
+    "title2": "Je suis très flexible avec les communications en fonction du fuseau horaire",
+    "title3": ""
+  }
+}

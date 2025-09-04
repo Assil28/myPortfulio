@@ -1,0 +1,268 @@
+{
+  "Index": {
+    "subtitle": "Software Developer & Web and Mobile Applications",
+    "greeting": "Hello I'm",
+    "name": "Assil Dekhil",
+    "description": "Master 2 student in Computer Science and Mobility at the FST of Mulhouse and graduate in Bachelor's degree in Computer Technology with a specialty in Web and Mobile Development.",
+    "downloadCV": "Download CV"
+  },
+  "navigation": {
+    "hireMe": "Hire me",
+    "home": "Home",
+    "resume": "Resume",
+    "work": "Work",
+    "contact": "Contact"
+  },
+  "contact": {
+    "description": "Please fill out the form below to get in touch.",
+    "title": "Let's work together",
+    "firstname": "Firstname",
+    "lastname": "Lastname",
+    "email": "Email address",
+    "phone": "Phone number",
+    "selectService": "Select a service",
+    "services": {
+      "webDevelopment": "Web Development",
+      "cdi": "Permanent Contract",
+      "cdd": "Fixed-term Contract",
+      "intern": "Intern"
+    },
+    "messagePlaceholder": "Type your message here.",
+    "sendMessage": "Send message",
+    "messageSent": "Message Sent",
+    "submissionFailed": "Submission Failed",
+    "thankYouMessage": "Thank you for your message. I will get back to you soon.",
+    "failedMessage": "Failed to send message",
+    "contactInfo": {
+      "phone": "Phone",
+      "email": "Email",
+      "adresse": "Address"
+    },
+    "contactDetails": {
+      "phone": "+33 7 59 52 11 69",
+      "email": "assil.dekhil@uha.fr",
+      "address": "50 Bd Charles Stoessel, 68200 Mulhouse, France"
+    }
+  },
+  "resume": {
+    "about": {
+      "title": "About Me",
+      "description": "I am a passionate software developer with extensive experience in crafting digital solutions. My skill set spans across various programming languages and technologies.",
+      "name": "Name",
+      "phone": "Phone",
+      "experience": "Experience",
+      "discord": "Discord",
+      "nationality": "Nationality",
+      "email": "Email",
+      "freelance": "Available",
+      "languages": "Languages",
+      "lgDetails": "French, English, Spanish"
+    },
+    "skills": {
+      "title": "My Skills",
+      "description": "Skills",
+      "conception": {
+        "title": "Conception",
+        "items": {
+          "uml": "UML, Design Patterns"
+        }
+      },
+      "framework": {
+        "title": "Framework",
+        "items": {
+          "springboot": "Spring Boot",
+          "dotnet": ".NET",
+          "expressjs": "Express.js",
+          "nodejs": "NodeJS",
+          "angular": "Angular",
+          "reactjs": "ReactJS",
+          "flutter": "Flutter"
+        }
+      },
+      "programming": {
+        "title": "Programming",
+        "items": {
+          "java": "Java",
+          "csharp": "C#",
+          "python": "Python",
+          "php": "PHP",
+          "javascript": "JavaScript",
+          "typescript": "TypeScript",
+          "swift": "Swift",
+          "kotlin": "Kotlin",
+          "cplusplus": "C/C++"
+        }
+      },
+      "database": {
+        "title": "Database",
+        "items": {
+          "mysql": "MySQL",
+          "mongodb": "MongoDB",
+          "firebase": "Firebase",
+          "oracle": "Oracle",
+          "postgresql": "PostgreSQL"
+        }
+      },
+      "projectManagement": {
+        "title": "Project Management",
+        "items": {
+          "git": "Git",
+          "trello": "Trello/Jira",
+          "agile": "Agile/Scrum",
+          "postman": "Postman"
+        }
+      },
+      "devops": {
+        "title": "DevOps",
+        "items": {
+          "docker": "Docker",
+          "kubernetes": "Kubernetes",
+          "cicd": "CI/CD (Jenkins, GitLab CI)"
+        }
+      }
+    },
+    "experience": {
+      "title": "My Experience",
+      "description": "A brief overview of my professional experience and internships.",
+      "items": {
+        "internship4": {
+          "company": "BFI Group, Djerba Tunisia",
+          "position": "Software Engineering Intern",
+          "duration": "July 2024"
+        },
+        "internship2": {
+          "company": "ROAM MAZE, Djerba Tunisia",
+          "position": "Software Engineering Intern",
+          "duration": "January - June 2023"
+        },
+        "internship3": {
+          "company": "TANGORYTHM, Djerba Tunisia",
+          "position": "Web Development Intern",
+          "duration": "January 2022"
+        },
+        "internship1": {
+          "company": "OACA , Djerba Tunisia",
+          "position": "Web Development Intern",
+          "duration": "January 2022"
+        }
+      }
+    },
+    "education": {
+      "title": "My Education",
+      "description": "An overview of my academic background.",
+      "items": {
+        "education1": {
+          "institution": "Faculty of Sciences and Techniques, University of Haute-Alsace",
+          "degree": "Master 1 in Computer Science and Mobility",
+          "duration": "2024 - Present",
+          "link": "https://www.uha.fr/fr/index.html"
+        },
+        "education2": {
+          "institution": "Institut Supérieur des Études Technologiques de Rades",
+          "degree": "Master 1 in Mobile Application Development",
+          "duration": "2023 - 2024",
+          "link": ""
+        },
+        "education3": {
+          "institution": "Institut Supérieur des Études Technologiques de Mahdia",
+          "degree": "Bachelor's Degree in Computer Science - Web Development and Multimedia",
+          "duration": "2020 - 2023",
+          "link": ""
+        },
+        "education4": {
+          "institution": "Lycée Houmt-Souk Djerba",
+          "degree": "Baccalaureate in Mathematics",
+          "duration": "2020",
+          "link": ""
+        }
+      }
+    }
+  },
+  "work": {
+    "projects": {
+      "project1": {
+        "num": "01",
+        "category": "Mobile Application",
+        "title": "Store Management",
+        "description": "Mobile Application for store management (Tech : Flutter, PrestaShop Webservice API)",
+        "stack": "Flutter, PrestaShop Webservice API",
+        "image": "/images/work/mobile_store_management.png",
+        "live": "",
+        "github": ""
+      },
+      "project2": {
+        "num": "02",
+        "category": "Platform",
+        "title": "Electric Energy Sales",
+        "description": "Platform for electric energy sales (Tech : .NET, Angular, MySQL, Postman)",
+        "stack": ".NET, Angular, MySQL, Postman",
+        "image": "/images/work/electric_energy_sales.png",
+        "live": "",
+        "github": ""
+      },
+      "project3": {
+        "num": "03",
+        "category": "Web and Mobile Application",
+        "title": "Transport Agency Management",
+        "description": "Web and Mobile Application for transport agency management (Tech : Express.js, Flutter, MongoDB, Postman)",
+        "stack": "Express.js, Flutter, MongoDB, Postman",
+        "image": "/images/work/transport_agency_management.png",
+        "live": "",
+        "github": ""
+      },
+      "project4": {
+        "num": "04",
+        "category": "Platform",
+        "title": "Job Offers",
+        "description": "Job offers platform (Tech : Express.js, Angular, MongoDB, Postman)",
+        "stack": "Express.js, Angular, MongoDB, Postman",
+        "image": "/images/work/job_offers_platform.png",
+        "live": "",
+        "github": ""
+      },
+      "project5": {
+        "num": "05",
+        "category": "Platform",
+        "title": "Restaurant Management",
+        "description": "Restaurant management platform (Tech : Spring Boot, Angular, MySQL, Postman)",
+        "stack": "Spring Boot, Angular, MySQL, Postman",
+        "image": "/images/work/restaurant_management.png",
+        "live": "",
+        "github": ""
+      },
+      "project6": {
+        "num": "06",
+        "category": "Platform",
+        "title": "Social Network",
+        "description": "Social network platform (Tech : Spring Boot, Angular, MySQL, Postman)",
+        "stack": "Spring Boot, Angular, MySQL, Postman",
+        "image": "/images/work/social_network_platform.png",
+        "live": "",
+        "github": ""
+      },
+      "project7": {
+        "num": "07",
+        "category": "Platform",
+        "title": "School Management",
+        "description": "School management platform (Tech : Spring Boot, Angular, MySQL, Postman)",
+        "stack": "Spring Boot, Angular, MySQL, Postman",
+        "image": "/images/work/school_management_platform.png",
+        "live": "",
+        "github": ""
+      }
+    },
+    "liveProject": "Live project",
+    "githubRepository": "GitHub repository"
+  },
+  "stats": {
+    "yearsOfExperience": "Years of experience",
+    "projectsCompleted": "Projects completed",
+    "technologiesMastered": "Technologies mastered",
+    "codeCommits": "code commits"
+  },
+  "grid": {
+    "title1": "I prioritize client collaboration, fostering open communication",
+    "title2": "I'm very flexible with time zone communications",
+    "title3": ""
+  }
+}
