@@ -24,7 +24,7 @@ export async function POST(request: Request) {
   // Config EmailJS (stockées dans .env.local)
   const serviceId = process.env.EMAILJS_SERVICE_ID!;
   const templateId = process.env.EMAILJS_TEMPLATE_ID!;
-  const publicKey = process.env.EMAILJS_PUBLIC_KEY!; // ou SECRET_KEY si tu veux + sécurité
+const privateKey = process.env.EMAILJS_PRIVATE_KEY!; // NEW
 
   const templateParams = {
     firstname,
@@ -43,11 +43,11 @@ export async function POST(request: Request) {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        service_id: serviceId,
-        template_id: templateId,
-        user_id: publicKey,
-        template_params: templateParams,
-      }),
+  service_id: serviceId,
+  template_id: templateId,
+  user_id: privateKey, // Use privateKey here
+  template_params: templateParams,
+}),
     });
 
     if (!response.ok) {

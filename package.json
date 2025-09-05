@@ -41,6 +41,7 @@
     "react-flagkit": "^2.0.4",
     "react-icon-cloud": "^4.1.4",
     "react-icons": "^5.2.1",
+    "sharp": "^0.34.3",
     "swiper": "^11.1.8",
     "tailwind-merge": "^2.3.0",
     "tailwindcss-animate": "^1.0.7",
