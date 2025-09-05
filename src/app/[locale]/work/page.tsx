@@ -98,6 +98,17 @@ const Work = () => {
       live: t("projects.project7.live"),
       github: t("projects.project7.github"),
     },
+    {
+      id: 8,
+      num: t("projects.project8.num"),
+      category: t("projects.project8.category"),
+      title: t("projects.project8.title"),
+      description: t("projects.project8.description"),
+      stack: t("projects.project8.stack").split("*"),
+      image: t("projects.project8.image"),
+      live: t("projects.project8.live"),
+      github: t("projects.project8.github"),
+    },
   ];
 
   const [project, setProject] = useState(projects[0]);

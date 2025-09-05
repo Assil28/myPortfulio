@@ -198,7 +198,7 @@
         "title": "ShareElec",
         "description": "Platform for electric energy sales ",
         "stack": ".NET, Angular, MySQL, Postman",
-        "image": "/images/work/electric_energy_sales.png",
+        "image": "/images/work/ShareElec.png",
         "live": "",
         "github": "https://github.com/Assil28/ShareElec_FrontEnd-.git"
       },
@@ -208,7 +208,7 @@
         "title": "E_Banking",
         "description": "Development of a mobile application access module based on two-factor authentication",
         "stack": "Flutter, Firebase",
-        "image": "/images/work/electric_energy_sales.png",
+        "image": "/images/work/ebanking.png",
         "live": "",
         "github": "https://github.com/Assil28/E_Banking"
       },
@@ -218,7 +218,7 @@
         "title": "STT",
         "description": "Web and Mobile Application for transport agency management",
         "stack": "Express.js, Flutter, MongoDB, Postman",
-        "image": "/images/work/transport_agency_management.png",
+        "image": "/images/work/stt.png",
         "live": "",
         "github": "https://github.com/Assil28/STT_PROJECT"
       },
@@ -228,7 +228,7 @@
         "title": "JobFinder",
         "description": "Job offers platform ",
         "stack": "Express.js, Angular, MongoDB, Postman",
-        "image": "/images/work/job_offers_platform.png",
+        "image": "/images/work/jobfinder.png",
         "live": "",
         "github": "https://github.com/Assil28/JobFinder"
       },
@@ -238,7 +238,7 @@
         "title": "Restauroni",
         "description": "Restaurant management platform ",
         "stack": "Spring Boot, Angular, MySQL, Postman",
-        "image": "/images/work/restaurant_management.png",
+        "image": "/images/work/restoroni.png",
         "live": "",
         "github": "https://github.com/Assil28/AppRestaurant"
       },
@@ -248,7 +248,7 @@
         "title": "A7ki",
         "description": "Social network platform",
         "stack": "Spring Boot, Angular, MySQL, Postman",
-        "image": "/images/work/social_network_platform.png",
+        "image": "/images/work/a7ki.png",
         "live": "",
         "github": "https://github.com/Assil28/App-Reseau_Social"
       },
@@ -258,9 +258,9 @@
         "title": "9raya",
         "description": "School management platform/*  */",
         "stack": "Spring Boot, Angular, MySQL, Postman",
-        "image": "/images/work/school_management_platform.png",
+        "image": "/images/work/9raya.png",
         "live": "",
-        "github": ""
+        "github": "https://github.com/Assil28/9raya"
       }
     },
     "liveProject": "Live project",

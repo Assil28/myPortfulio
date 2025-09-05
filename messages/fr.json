@@ -198,7 +198,7 @@
         "title": "ShareElec",
         "description": "Plateforme pour la vente d'énergie électrique",
         "stack": ".NET, Angular, MySQL, Postman",
-        "image": "/images/work/electric_energy_sales.png",
+        "image": "/images/work/ShareElec.png",
         "live": "",
         "github": "https://github.com/Assil28/ShareElec_FrontEnd-.git"
       },
@@ -208,7 +208,7 @@
         "title": "E_Banking",
         "description": "Développement d'un module d'accès à une application mobile basé sur l'authentification à deux facteurs",
         "stack": ".NET, Angular, MySQL, Postman",
-        "image": "/images/work/electric_energy_sales.png",
+        "image": "/images/work/ebanking.png",
         "live": "",
         "github": "https://github.com/Assil28/E_Banking"
       },
@@ -228,7 +228,7 @@
         "title": "JobFinder",
         "description": "Plateforme d'offres d'emploi",
         "stack": "Express.js, Angular, MongoDB, Postman",
-        "image": "/images/work/job_offers_platform.png",
+        "image": "/images/work/jobfinder.png",
         "live": "",
         "github": "https://github.com/Assil28/JobFinder"
       },
@@ -238,7 +238,7 @@
         "title": "Restauroni",
         "description": "Plateforme de gestion de restaurant",
         "stack": "Spring Boot, Angular, MySQL, Postman",
-        "image": "/images/work/restaurant_management.png",
+        "image": "/images/work/restoroni.png",
         "live": "",
         "github": "https://github.com/Assil28/AppRestaurant"
       },
@@ -248,7 +248,7 @@
         "title": "A7ki",
         "description": "Plateforme de réseau social",
         "stack": "Spring Boot, Angular, MySQL, Postman",
-        "image": "/images/work/social_network_platform.png",
+        "image": "/images/work/a7ki.png",
         "live": "",
         "github": "https://github.com/Assil28/App-Reseau_Social"
       },
@@ -258,9 +258,9 @@
         "title": "9raya",
         "description": "Plateforme de gestion d'un établissement scolaire",
         "stack": "Spring Boot, Angular, MySQL, Postman",
-        "image": "/images/work/school_management_platform.png",
+        "image": "/images/work/9raya.png",
         "live": "",
-        "github": ""
+        "github": "https://github.com/Assil28/9raya"
       }
     },
     "liveProject": "Projet en direct",
