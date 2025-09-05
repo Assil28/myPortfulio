@@ -262,6 +262,16 @@
         "image": "/images/work/9raya.png",
         "live": "",
         "github": "https://github.com/Assil28/9raya"
+      },
+      "project9": {
+        "num": "09",
+        "category": "Platform",
+        "title": "Outil de Simulation de Connexions V2V ",
+        "description": "Application desktop développer en C++ et le framework Qt 6 pour l'interface graphique. Notre solution se connecte à l'API d'OpenStreetMap pour récupérer des tracés de routes réels, sur lesquels nous avons ensuite simulé le déplacement aléatoire de plusieurs véhicules. Chaque véhicule est représenté par un point mobile sur la carte, suivant une trajectoire valide.",
+        "stack": "QT Creator, C++ , OpenStreetMap",
+        "image": "/images/work/v2v.png",
+        "live": "",
+        "github": "https://github.com/Assil28/V2V-Simulation-QT-C-.git"
       }
     },
     "liveProject": "Live project",
