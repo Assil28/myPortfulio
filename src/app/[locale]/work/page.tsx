@@ -220,16 +220,16 @@ const Work = () => {
               {projects.map((project, index) => {
                 return (
                   <SwiperSlide key={index} className="w-full">
-                    <div className="h-[460px] relative group flex justify-center items-center bg-pink-50/20">
+                    <div className="relative w-full max-w-full aspect-[16/9] group flex justify-center items-center bg-pink-50/20 overflow-hidden rounded-md">
                       {/* overlay */}
-                      <div className="absolute top-0 bottom-0 w-full h-full bg-black/10 z-10"></div>
+                      <div className="absolute inset-0 bg-black/10 z-10"></div>
                       {/* image */}
                       <div className="relative w-full h-full">
                         <Image
                           src={project.image}
                           fill
-                          className="object-cover"
-                          alt=""
+                          className={["02", "04", "05"].includes(project.num) ? "object-contain" : "object-cover"}
+                          alt={project.title}
                           unoptimized
                         />
                       </div>
