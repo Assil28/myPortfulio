@@ -40,7 +40,7 @@ const info = [
     description: "Mulhouse, France",
   },
 ];
-
+/**/
 const Contact = () => {
   const t = useTranslations("contact");
 
