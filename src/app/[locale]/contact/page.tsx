@@ -5,6 +5,8 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
+import emailjs from '@emailjs/browser';
+
 import {
   Select,
   SelectContent,
@@ -55,6 +57,11 @@ const Contact = () => {
   const [confirmation, setConfirmation] = useState(false);
   const [submitError, setSubmitError] = useState("");
 
+  const resetForm = () => {
+    setConfirmation(false);
+    setSubmitError("");
+  };
+
   const handleChange = (
     e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>
   ) => {
@@ -64,20 +71,34 @@ const Contact = () => {
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setIsLoading(true);
-    const response = await fetch("/en/api/contact", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(formData),
-    });
-    setIsLoading(false);
-    const result = await response.json();
-    if (response.ok) {
+    setSubmitError("");
+
+    const templateParams = {
+      firstname: formData.firstname,
+      lastname: formData.lastname,
+      email: formData.email,
+      phone: formData.phone,
+      service: formData.service,
+      message: formData.message,
+    };
+
+    try {
+      await emailjs.send("service_3qc1psg", "template_9tykc09", templateParams, "uT9QiGnvB-axtb4oZ");
       setConfirmation(true);
-      setSubmitError("");
-    } else {
-      setSubmitError(result.message || t("failedMessage"));
+      setFormData({
+        firstname: "",
+        lastname: "",
+        email: "",
+        phone: "",
+        service: "",
+        message: "",
+      });
+      console.log('SUCCESS!');
+    } catch (err) {
+      setSubmitError(t("submissionFailed"));
+      console.log('FAILED...', err);
+    } finally {
+      setIsLoading(false);
     }
   };
 
@@ -183,20 +204,29 @@ const Contact = () => {
               )}
 
               {(confirmation || submitError) && (
-                <Alert
-                  className={clsx(
-                    confirmationAndErrorStyles,
-                    submitError ? "bg-neutral-900" : "bg-green-900"
-                  )}
-                >
-                  {!submitError && <MailCheck className="h-4 w-4" />}
-                  <AlertTitle>
-                    {submitError ? t("submissionFailed") : t("messageSent")}
-                  </AlertTitle>
-                  <AlertDescription>
-                    {submitError || t("thankYouMessage")}
-                  </AlertDescription>
-                </Alert>
+                <div className="space-y-4">
+                  <Alert
+                    className={clsx(
+                      confirmationAndErrorStyles,
+                      submitError ? "bg-neutral-900" : "bg-green-900"
+                    )}
+                  >
+                    {!submitError && <MailCheck className="h-4 w-4" />}
+                    <AlertTitle>
+                      {submitError ? t("submissionFailed") : t("messageSent")}
+                    </AlertTitle>
+                    <AlertDescription>
+                      {submitError || t("thankYouMessage")}
+                    </AlertDescription>
+                  </Alert>
+                  <Button
+                    size="md"
+                    className="max-w-48"
+                    onClick={resetForm}
+                  >
+                    {t("sendAnotherMessage") || "Send Another Message"}
+                  </Button>
+                </div>
               )}
             </form>
           </div>
