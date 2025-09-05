@@ -198,7 +198,7 @@
         "category": "Platform",
         "title": "ShareElec",
         "description": "Platform for electric energy sales ",
-        "stack": ".NET, Angular, MySQL, Postman",
+        "stack": "Angular, .NET, MySQL, Postman",
         "image": "/images/work/ShareElec.png",
         "live": "",
         "github": "https://github.com/Assil28/ShareElec_FrontEnd-.git"

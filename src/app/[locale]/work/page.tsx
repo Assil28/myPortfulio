@@ -109,7 +109,6 @@ const Work = () => {
       live: t("projects.project8.live"),
       github: t("projects.project8.github"),
     },
-    ,
     {
       id: 9,
       num: t("projects.project9.num"),
@@ -174,14 +173,7 @@ const Work = () => {
                 })}
               </ul>
               {/* github link below stack */}
-              {project.github && (
-                <div className="flex items-center gap-2 mt-2">
-                  <Link href={project.github} target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 text-accent hover:underline">
-                    <BsGithub className="text-xl" />
-                    <span>GitHub</span>
-                  </Link>
-                </div>
-              )}
+              
               {/* border */}
               <div className="border border-white/20"></div>
               {/* buttons */}

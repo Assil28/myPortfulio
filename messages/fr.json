@@ -208,7 +208,7 @@
         "category": "Mobile",
         "title": "E_Banking",
         "description": "Développement d'un module d'accès à une application mobile basé sur l'authentification à deux facteurs",
-        "stack": ".NET, Angular, MySQL, Postman",
+        "stack": "Angular, .NET, MySQL, Postman",
         "image": "/images/work/ebanking.png",
         "live": "",
         "github": "https://github.com/Assil28/E_Banking"
