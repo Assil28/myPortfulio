@@ -34,6 +34,7 @@
     "submissionFailed": "Échec de l'envoi",
     "thankYouMessage": "Merci pour votre message. Je vous répondrai bientôt.",
     "failedMessage": "Échec de l'envoi du message",
+    "sendAnotherMessage": "Envoyer un autre message",
     "contactInfo": {
       "phone": "Téléphone",
       "email": "E-mail",

@@ -70,6 +70,20 @@ const Contact = () => {
 
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+
+    // Validate required fields
+    if (
+      !formData.firstname.trim() ||
+      !formData.lastname.trim() ||
+      !formData.email.trim() ||
+      !formData.phone.trim() ||
+      !formData.service.trim() ||
+      !formData.message.trim()
+    ) {
+      setSubmitError(t("submissionFailed"));
+      return;
+    }
+
     setIsLoading(true);
     setSubmitError("");
 
@@ -134,30 +148,34 @@ const Contact = () => {
                   <p className="text-white/60">{t("description")}</p>
                   {/* input */}
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    <Input
-                      type="text"
-                      name="firstname"
-                      placeholder={t("firstname")}
-                      onChange={handleChange}
-                    />
-                    <Input
-                      type="text"
-                      name="lastname"
-                      placeholder={t("lastname")}
-                      onChange={handleChange}
-                    />
-                    <Input
-                      type="email"
-                      name="email"
-                      placeholder={t("email")}
-                      onChange={handleChange}
-                    />
-                    <Input
-                      type="text"
-                      name="phone"
-                      placeholder={t("phone")}
-                      onChange={handleChange}
-                    />
+                  <Input
+                    type="text"
+                    name="firstname"
+                    placeholder={t("firstname") + " *"}
+                    onChange={handleChange}
+                    required
+                  />
+                  <Input
+                    type="text"
+                    name="lastname"
+                    placeholder={t("lastname") + " *"}
+                    onChange={handleChange}
+                    required
+                  />
+                  <Input
+                    type="email"
+                    name="email"
+                    placeholder={t("email") + " *"}
+                    onChange={handleChange}
+                    required
+                  />
+                  <Input
+                    type="text"
+                    name="phone"
+                    placeholder={t("phone") + " *"}
+                    onChange={handleChange}
+                    required
+                  />
                   </div>
                   {/* select */}
                   <Select
@@ -167,7 +185,7 @@ const Contact = () => {
                     }
                   >
                     <SelectTrigger className="w-full">
-                      <SelectValue placeholder={t("selectService")} />
+                      <SelectValue placeholder={t("selectService") + " *"} />
                     </SelectTrigger>
                     <SelectContent>
                       <SelectGroup>
@@ -188,13 +206,14 @@ const Contact = () => {
                   <Textarea
                     className="h-[200px]"
                     name="message"
-                    placeholder={t("messagePlaceholder")}
+                    placeholder={t("messagePlaceholder") + " *"}
                     onChange={handleChange}
+                    required
                   />
                   {/* btn */}
                   <Button
                     size="md"
-                    className={`max-w-48 ${isLoading ? "bg-accent-hover" : ""}`}
+                    className={`max-w-48 mx-auto block ${isLoading ? "bg-accent-hover" : ""}`}
                     type="submit"
                     disabled={isLoading}
                   >
@@ -221,10 +240,10 @@ const Contact = () => {
                   </Alert>
                   <Button
                     size="md"
-                    className="max-w-48"
+                    className="w-64 mx-auto block"
                     onClick={resetForm}
                   >
-                    {t("sendAnotherMessage") || "Send Another Message"}
+                    {t("sendAnotherMessage") ?? "Send Another Message"}
                   </Button>
                 </div>
               )}
