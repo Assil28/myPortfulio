@@ -1,11 +1,10 @@
 import { NextResponse } from "next/server";
-import nodemailer from "nodemailer";
 
 export async function POST(request: Request) {
   const { firstname, lastname, email, phone, service, message } =
     await request.json();
 
-  // Validate request payload
+  // Validation des champs
   if (!firstname || !lastname || !email || !phone || !service || !message) {
     return NextResponse.json(
       { message: "All fields are required" },
@@ -13,33 +12,53 @@ export async function POST(request: Request) {
     );
   }
 
-  // Create a transporter
-  let transporter = nodemailer.createTransport({
-    host: "smtppro.zoho.eu",
-    port: 465,
-    secure: true, // true for 465, false for other ports
-    auth: {
-      user: process.env.EMAIL, // Your email
-      pass: process.env.EMAIL_PASSWORD, // Your email password or app password
-    },
-  });
+  // Vérification email simple
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  if (!emailRegex.test(email)) {
+    return NextResponse.json(
+      { message: "Invalid email address" },
+      { status: 400 }
+    );
+  }
 
-  // Set up email data
-  let mailOptions = {
-    from: "assil.dkhil28@gmail.com", // Sender address
-    to: process.env.EMAIL, // List of receivers
-    subject: "New Contact Form Submission",
-    text: `Name: ${firstname} ${lastname}\nEmail: ${email}\nPhone: ${phone}\nService: ${service}\nMessage: ${message}`,
+  // Config EmailJS (stockées dans .env.local)
+  const serviceId = process.env.EMAILJS_SERVICE_ID!;
+  const templateId = process.env.EMAILJS_TEMPLATE_ID!;
+const privateKey = process.env.EMAILJS_PRIVATE_KEY!; // NEW
+
+  const templateParams = {
+    firstname,
+    lastname,
+    email,
+    phone,
+    service,
+    message,
   };
 
   try {
-    // Send email
-    await transporter.sendMail(mailOptions);
+    // Envoi de l’email via EmailJS API
+    const response = await fetch("https://api.emailjs.com/api/v1.0/email/send", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+  service_id: serviceId,
+  template_id: templateId,
+  user_id: privateKey, // Use privateKey here
+  template_params: templateParams,
+}),
+    });
+
+    if (!response.ok) {
+      throw new Error(`EmailJS error: ${response.statusText}`);
+    }
+
     return NextResponse.json({ message: "Email sent successfully" });
   } catch (error) {
     console.error("Error sending email: ", error);
     return NextResponse.json(
-      { message: "Error sending email", error: (error as Error).toString() },
+      { message: "Error sending email", error: (error as Error).message },
       { status: 500 }
     );
   }
