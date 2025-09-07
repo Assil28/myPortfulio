@@ -198,7 +198,7 @@
         "category": "Plateforme",
         "title": "ShareElec",
         "description": "ShareElec est une plateforme web sécurisée et intuitive qui facilite les échanges d’électricité entre particuliers. Conçue dans le cadre de la transition énergétique et de la production décentralisée, elle permet de contractualiser simplement les transactions d’énergie, tout en favorisant l’autonomie énergétique et l’optimisation des ressources locales. La plateforme intègre également la méthode de paiement en ligne Stripe, garantissant des transactions rapides, sûres et fiables pour tous les utilisateurs.",
-        "stack": ".NET, Angular, MySQL, Postman",
+        "stack": "Angular, .NET, MySQL, Postman",
         "image": "/images/work/ShareElec.png",
         "live": "",
         "github": "https://github.com/Assil28/ShareElec_FrontEnd-.git"
@@ -208,7 +208,7 @@
         "category": "Mobile",
         "title": "E_Banking",
         "description": "Développement d’un module de sécurité pour application mobile intégrant l’authentification à deux facteurs. Ce projet a permis de renforcer la protection des comptes utilisateurs en ajoutant une couche supplémentaire de sécurité, contribuant ainsi à prévenir les accès non autorisés et le vol de données.",
-        "stack": "Angular, .NET, MySQL, Postman",
+        "stack": "Flutter, Firebase",
         "image": "/images/work/ebanking.png",
         "live": "",
         "github": "https://github.com/Assil28/E_Banking"
