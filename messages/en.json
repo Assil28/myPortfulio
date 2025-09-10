@@ -189,7 +189,7 @@
         "title": "GestionPresta",
         "description": "GestionMagasin is a Flutter store management app designed to help users efficiently manage their customers, orders, products, and tasks. This app is primarily aimed at small and medium-sized businesses looking to digitize and simplify their store management.",
         "stack": "Flutter, PrestaShop Webservice API",
-        "image": "/images/work/kmandi.png",
+        "image": "/images/work/kmandi/1.png,/images/work/kmandi/2.png,/images/work/kmandi/3.png,/images/work/kmandi/4.png,/images/work/kmandi/5.png,/images/work/kmandi/6.png,/images/work/kmandi/7.png,/images/work/kmandi/8.png,/images/work/kmandi/9.png,/images/work/kmandi/10.png",
         "live": "",
         "github": "https://github.com/Assil28/endyear_2025_gr01_mobileapp"
       },
@@ -199,7 +199,7 @@
         "title": "ShareElec",
         "description": "ShareElec is a secure and intuitive web platform that facilitates electricity exchanges between individuals. Designed to support the energy transition and decentralized production, it allows for simple contracting of energy transactions, while promoting energy autonomy and the optimization of local resources. The platform also integrates the Stripe online payment method, guaranteeing fast, secure, and reliable transactions for all users.",
         "stack": "Angular, .NET, MySQL, Postman",
-        "image": "/images/work/ShareElec.png",
+        "image": "/images/work/ShareElec/1.png,/images/work/ShareElec/2.png,/images/work/ShareElec/3.png",
         "live": "",
         "github": "https://github.com/Assil28/ShareElec_FrontEnd-.git"
       },
@@ -209,7 +209,7 @@
         "title": "E_Banking",
         "description": "Development of a mobile application security module integrating two-factor authentication. This project strengthened user account protection by adding an additional layer of security, helping to prevent unauthorized access and data theft.",
         "stack": "Flutter, Firebase",
-        "image": "/images/work/ebanking.png",
+        "image": "/images/work/ebanking/1.png,/images/work/ebanking/2.png,/images/work/ebanking/3.jpg,/images/work/ebanking/4.jpg,/images/work/ebanking/5.png,/images/work/ebanking/6.jpg,/images/work/ebanking/7.jpg,/images/work/ebanking/8.png,/images/work/ebanking/9.png,/images/work/ebanking/10.png,/images/work/ebanking/11.png",
         "live": "",
         "github": "https://github.com/Assil28/E_Banking"
       },
@@ -219,7 +219,7 @@
         "title": "STT",
         "description": "Development of an application allowing travelers to purchase tickets online for a specific date, with integration of secure payment via Stripe. After payment, a ticket generated with a QR code is automatically sent to WhatsApp thanks to Twilio. The application also allows ticket inspectors to verify ticket validity by scanning QR codes, ensuring fast and reliable inspection.",
         "stack": "Express.js, Flutter, MongoDB, Postman",
-        "image": "/images/work/stt.png",
+        "image": "/images/work/stt/1.png,/images/work/stt/2.png,/images/work/stt/3.png,/images/work/stt/4.png,/images/work/stt/5.png,/images/work/stt/6.png,/images/work/stt/7.png,/images/work/stt/8.png",
         "live": "",
         "github": "https://github.com/Assil28/STT_PROJECT"
       },
@@ -259,7 +259,7 @@
         "title": "9raya",
         "description": "Development of a versatile web-based solution for education and training organizations. The platform automates the management of human resources (students, teachers, parents, staff), registrations, timetables, subjects, classes, and report cards. It also includes an instant messaging system to facilitate interaction between teachers and students, as well as an archiving module to ensure the traceability of the institution's data.",
         "stack": "Spring Boot, Angular, MySQL, Postman",
-        "image": "/images/work/9raya.png",
+        "image": "/images/work/9raya/1.png,/images/work/9raya/2.png,/images/work/9raya/3.png,/images/work/9raya/4.png,/images/work/9raya/5.png,/images/work/9raya/6.png,/images/work/9raya/7.png,/images/work/9raya/8.png,/images/work/9raya/9.png,/images/work/9raya/10.png,/images/work/9raya/11.png,/images/work/9raya/12.png,/images/work/9raya/13.png,/images/work/9raya/14.png,/images/work/9raya/15.png,/images/work/9raya/16.png,/images/work/9raya/17.png,/images/work/9raya/18.png",
         "live": "",
         "github": "https://github.com/Assil28/9raya"
       },

@@ -189,7 +189,7 @@
         "title": "GestionPresta",
         "description": "GestionMagasin est une application Flutter de gestion de magasin conçue pour aider les utilisateurs à gérer efficacement leurs clients, commandes, produits et tâches. Cette application cible principalement les petites et moyennes entreprises souhaitant digitaliser et simplifier la gestion de leur magasin.",
         "stack": "Flutter, PrestaShop Webservice API",
-        "image": "/images/work/kmandi.png",
+        "image": "/images/work/kmandi/1.png,/images/work/kmandi/2.png,/images/work/kmandi/3.png,/images/work/kmandi/4.png,/images/work/kmandi/5.png,/images/work/kmandi/6.png,/images/work/kmandi/7.png,/images/work/kmandi/8.png,/images/work/kmandi/9.png,/images/work/kmandi/10.png",
         "live": "",
         "github": "https://github.com/Assil28/endyear_2025_gr01_mobileapp"
       },
@@ -199,7 +199,7 @@
         "title": "ShareElec",
         "description": "ShareElec est une plateforme web sécurisée et intuitive qui facilite les échanges d’électricité entre particuliers. Conçue dans le cadre de la transition énergétique et de la production décentralisée, elle permet de contractualiser simplement les transactions d’énergie, tout en favorisant l’autonomie énergétique et l’optimisation des ressources locales. La plateforme intègre également la méthode de paiement en ligne Stripe, garantissant des transactions rapides, sûres et fiables pour tous les utilisateurs.",
         "stack": "Angular, .NET, MySQL, Postman",
-        "image": "/images/work/ShareElec.png",
+        "image": "/images/work/ShareElec/1.png,/images/work/ShareElec/2.png,/images/work/ShareElec/3.png",
         "live": "",
         "github": "https://github.com/Assil28/ShareElec_FrontEnd-.git"
       },
@@ -209,7 +209,7 @@
         "title": "E_Banking",
         "description": "Développement d’un module de sécurité pour application mobile intégrant l’authentification à deux facteurs. Ce projet a permis de renforcer la protection des comptes utilisateurs en ajoutant une couche supplémentaire de sécurité, contribuant ainsi à prévenir les accès non autorisés et le vol de données.",
         "stack": "Flutter, Firebase",
-        "image": "/images/work/ebanking.png",
+        "image": "/images/work/ebanking/1.png,/images/work/ebanking/2.png,/images/work/ebanking/3.jpg,/images/work/ebanking/4.jpg,/images/work/ebanking/5.png,/images/work/ebanking/6.jpg,/images/work/ebanking/7.jpg,/images/work/ebanking/8.png,/images/work/ebanking/9.png,/images/work/ebanking/10.png,/images/work/ebanking/11.png",
         "live": "",
         "github": "https://github.com/Assil28/E_Banking"
       },
@@ -219,7 +219,7 @@
         "title": "STT",
         "description": "Développement d’une application permettant aux voyageurs d’acheter des billets en ligne pour une date précise, avec intégration du paiement sécurisé via Stripe. Après paiement, un ticket généré avec un code QR est envoyé automatiquement sur WhatsApp grâce à Twilio. L’application offre également aux contrôleurs la possibilité de vérifier la validité des tickets en scannant les codes QR, assurant un contrôle rapide et fiable.",
         "stack": "Express.js, Flutter, MongoDB, Postman",
-        "image": "/images/work/stt.png",
+        "image": "/images/work/stt/1.png,/images/work/stt/2.png,/images/work/stt/3.png,/images/work/stt/4.png,/images/work/stt/5.png,/images/work/stt/6.png,/images/work/stt/7.png,/images/work/stt/8.png",
         "live": "",
         "github": "https://github.com/Assil28/STT_PROJECT"
       },
@@ -259,7 +259,7 @@
         "title": "9raya",
         "description": "Développement d’une solution web polyvalente destinée aux organismes d’éducation et de formation. La plateforme automatise la gestion des ressources humaines (apprenants, enseignants, parents, personnels), des inscriptions, des emplois du temps, des matières, des classes et des bulletins. Elle intègre également un système de  messagerie instantanée facilitant l’interaction entre enseignants et apprenants, ainsi qu’un module d’archivage pour assurer la traçabilité des données de l’établissement.",
         "stack": "Spring Boot, Angular, MySQL, Postman",
-        "image": "/images/work/9raya.png",
+        "image": "/images/work/9raya/1.png,/images/work/9raya/2.png,/images/work/9raya/3.png,/images/work/9raya/4.png,/images/work/9raya/5.png,/images/work/9raya/6.png,/images/work/9raya/7.png,/images/work/9raya/8.png,/images/work/9raya/9.png,/images/work/9raya/10.png,/images/work/9raya/11.png,/images/work/9raya/12.png,/images/work/9raya/13.png,/images/work/9raya/14.png,/images/work/9raya/15.png,/images/work/9raya/16.png,/images/work/9raya/17.png,/images/work/9raya/18.png",
         "live": "",
         "github": "https://github.com/Assil28/9raya"
       },

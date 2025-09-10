@@ -5,6 +5,8 @@ import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Swiper as SwiperType } from "swiper";
 import "swiper/css";
+import "swiper/css/navigation";
+import { Navigation } from "swiper/modules";
 import { BsArrowUpRight, BsGithub } from "react-icons/bs";
 import {
   Tooltip,
@@ -27,8 +29,8 @@ const Work = () => {
       category: t("projects.project1.category"),
       title: t("projects.project1.title"),
       description: t("projects.project1.description"),
-      stack: t("projects.project1.stack").split("+"),
-      image: t("projects.project1.image"),
+      stack: t("projects.project1.stack").split(","),
+      images: t("projects.project1.image").split(","),
       live: t("projects.project1.live"),
       github: t("projects.project1.github"),
     },
@@ -38,8 +40,8 @@ const Work = () => {
       category: t("projects.project2.category"),
       title: t("projects.project2.title"),
       description: t("projects.project2.description"),
-      stack: t("projects.project2.stack").split("+"),
-      image: t("projects.project2.image"),
+      stack: t("projects.project2.stack").split(","),
+      images: t("projects.project2.image").split(","),
       live: t("projects.project2.live"),
       github: t("projects.project2.github"),
     },
@@ -49,8 +51,8 @@ const Work = () => {
       category: t("projects.project3.category"),
       title: t("projects.project3.title"),
       description: t("projects.project3.description"),
-      stack: t("projects.project3.stack").split("+"),
-      image: t("projects.project3.image"),
+      stack: t("projects.project3.stack").split(","),
+      images: t("projects.project3.image").split(","),
       live: t("projects.project3.live"),
       github: t("projects.project3.github"),
     },
@@ -60,8 +62,8 @@ const Work = () => {
       category: t("projects.project4.category"),
       title: t("projects.project4.title"),
       description: t("projects.project4.description"),
-      stack: t("projects.project4.stack").split("+"),
-      image: t("projects.project4.image"),
+      stack: t("projects.project4.stack").split(","),
+      images: t("projects.project4.image").split(","),
       live: t("projects.project4.live"),
       github: t("projects.project4.github"),
     },
@@ -71,8 +73,8 @@ const Work = () => {
       category: t("projects.project5.category"),
       title: t("projects.project5.title"),
       description: t("projects.project5.description"),
-      stack: t("projects.project5.stack").split("*"),
-      image: t("projects.project5.image"),
+      stack: t("projects.project5.stack").split(","),
+      images: t("projects.project5.image").split(","),
       live: t("projects.project5.live"),
       github: t("projects.project5.github"),
     },
@@ -82,8 +84,8 @@ const Work = () => {
       category: t("projects.project6.category"),
       title: t("projects.project6.title"),
       description: t("projects.project6.description"),
-      stack: t("projects.project6.stack").split("*"),
-      image: t("projects.project6.image"),
+      stack: t("projects.project6.stack").split(","),
+      images: t("projects.project6.image").split(","),
       live: t("projects.project6.live"),
       github: t("projects.project6.github"),
     },
@@ -93,8 +95,8 @@ const Work = () => {
       category: t("projects.project7.category"),
       title: t("projects.project7.title"),
       description: t("projects.project7.description"),
-      stack: t("projects.project7.stack").split("*"),
-      image: t("projects.project7.image"),
+      stack: t("projects.project7.stack").split(","),
+      images: t("projects.project7.image").split(","),
       live: t("projects.project7.live"),
       github: t("projects.project7.github"),
     },
@@ -104,8 +106,8 @@ const Work = () => {
       category: t("projects.project8.category"),
       title: t("projects.project8.title"),
       description: t("projects.project8.description"),
-      stack: t("projects.project8.stack").split("*"),
-      image: t("projects.project8.image"),
+      stack: t("projects.project8.stack").split(","),
+      images: t("projects.project8.image").split(","),
       live: t("projects.project8.live"),
       github: t("projects.project8.github"),
     },
@@ -115,8 +117,8 @@ const Work = () => {
       category: t("projects.project9.category"),
       title: t("projects.project9.title"),
       description: t("projects.project9.description"),
-      stack: t("projects.project9.stack").split("*"),
-      image: t("projects.project9.image"),
+      stack: t("projects.project9.stack").split(","),
+      images: t("projects.project9.image").split(","),
       live: t("projects.project9.live"),
       github: t("projects.project9.github"),
     },
@@ -224,20 +226,41 @@ const Work = () => {
               {projects.map((project, index) => {
                 return (
                   <SwiperSlide key={index} className="w-full">
-                    <div className="relative w-full max-w-full aspect-[16/9] group flex justify-center items-center bg-pink-50/20 overflow-hidden rounded-md">
-                      {/* overlay */}
-                      <div className="absolute inset-0 bg-black/10 z-10"></div>
-                      {/* image */}
-                      <div className="relative w-full h-full">
-                        <Image
-                          src={project.image}
-                          fill
-                          className={["02", "04", "05"].includes(project.num) ? "object-contain" : "object-cover"}
-                          alt={project.title}
-                          unoptimized
-                        />
-                      </div>
+            <Swiper
+              modules={[Navigation]}
+              spaceBetween={10}
+              slidesPerView={1}
+              navigation={{
+                nextEl: `.swiper-button-next-${project.id}`,
+                prevEl: `.swiper-button-prev-${project.id}`,
+              }}
+              className="w-full h-full"
+            >
+              {project.images.map((imgSrc, imgIndex) => (
+                <SwiperSlide key={imgIndex} className="w-full">
+                  <div className="relative w-full max-w-full aspect-[16/9] group flex justify-center items-center bg-white overflow-hidden rounded-md">
+                    {/* overlay */}
+                    <div className="absolute inset-0 bg-black/10 z-10"></div>
+                    {/* image */}
+                    <div className="relative w-full h-full">
+                      <Image
+                        src={imgSrc.trim()}
+                        fill
+                        className={["02","03", "04", "05"].includes(project.num) ? "object-contain" : "object-cover"}
+                        alt={project.title}
+                        unoptimized
+                      />
                     </div>
+                  </div>
+                </SwiperSlide>
+              ))}
+              <div className={`swiper-button-prev swiper-button-prev-${project.id} text-white text-3xl absolute top-1/2 left-0 z-30 cursor-pointer select-none`}>
+                &#8592;
+              </div>
+              <div className={`swiper-button-next swiper-button-next-${project.id} text-white text-3xl absolute top-1/2 right-0 z-30 cursor-pointer select-none`}>
+                &#8594;
+              </div>
+            </Swiper>
                   </SwiperSlide>
                 );
               })}
@@ -257,3 +280,5 @@ const Work = () => {
 };
 
 export default Work;
+
+
