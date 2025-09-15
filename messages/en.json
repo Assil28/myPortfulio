@@ -196,8 +196,8 @@
       "project2": {
         "num": "02",
         "category": "Platform",
-        "title": "ShareElec",
-        "description": "ShareElec is a secure and intuitive web platform that facilitates electricity exchanges between individuals. Designed to support the energy transition and decentralized production, it allows for simple contracting of energy transactions, while promoting energy autonomy and the optimization of local resources. The platform also integrates the Stripe online payment method, guaranteeing fast, secure, and reliable transactions for all users.",
+        "title": "Tricité",
+        "description": "Tricité is a secure and intuitive web platform that facilitates electricity exchanges between individuals. Designed to support the energy transition and decentralized production, it allows for simple contracting of energy transactions, while promoting energy autonomy and the optimization of local resources. The platform also integrates the Stripe online payment method, guaranteeing fast, secure, and reliable transactions for all users.",
         "stack": "Angular, .NET, MySQL, Postman",
         "image": "/images/work/ShareElec/1.png,/images/work/ShareElec/2.png,/images/work/ShareElec/3.png",
         "live": "",
