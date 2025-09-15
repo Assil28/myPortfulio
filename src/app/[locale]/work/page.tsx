@@ -246,7 +246,7 @@ const Work = () => {
                       <Image
                         src={imgSrc.trim()}
                         fill
-                        className={["02","03", "04", "05","7","8"].includes(project.num) ? "object-contain" : "object-cover"}
+                        className={["02","03", "04", "05","06","07","08"].includes(project.num) ? "object-contain" : "object-cover"}
                         alt={project.title}
                         unoptimized
                       />
